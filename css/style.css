@@ -73,8 +73,9 @@ hr{
 }
 
 img{
-    height: 300px;
-    width: 320px;
+    height: 400px;
+    width: 500px;
+    object-fit: contain;
 }
 
 .btn{
