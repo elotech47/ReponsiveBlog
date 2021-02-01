@@ -250,9 +250,13 @@ footer{
         grid-gap: 40px;
 
     }
-    .newsletter{
-        margin-top: 0;
+    .newsletter {
+         margin-top: 0;
+        border: 1px solid rgb(5, 5, 5);
+        height: 50%;
+        /* padding: 2px 1px 2px 1px; */
     }
+    
     .popular{
         display: none;
     }
@@ -295,6 +299,10 @@ footer{
     }
     .newsletter, .topics, .search{
         margin-top: 3%;
+    }
+    .newsletter{
+        border: 1px solid black;
+        padding: 2px 1px 2px 1px;
     }
     .read-more-btn{
         float: left;
